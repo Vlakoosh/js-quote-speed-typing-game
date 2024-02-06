@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body, .quote-input {
+    font-family: "Roboto Mono", monospace;
+}
+
+.quote-input {
+    background-color: antiquewhite;
+    border: 2px solid bisque;
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    resize: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.quote-input:focus {
+    border-color: #b49c80;
+}
+
+.quote-display {
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+    font-size: 1rem;
+}
+
+.container {
+    background-color: #c2a074;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 700px;
+    max-width: 90%;
+}
+
+.timer {
+    position: absolute;
+    top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c2a074;
+}
+
+.correct {
+    color: greenyellow;
+}
+.incorrect {
+    color: #a10707;
+    text-decoration: underline;
+}
