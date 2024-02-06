@@ -4,6 +4,7 @@ const quoteInputElement = document.querySelector('.quote-input');
 const timerElement = document.querySelector('.timer');
 
 
+
 quoteInputElement.addEventListener('input', () => {
     const arrayQuote = quoteDisplayElement.querySelectorAll('span');
     const arrayValue = quoteInputElement.value.split('');
